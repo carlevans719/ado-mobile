@@ -20,7 +20,7 @@ export const PROJECT_ITERATIONS_ROUTE = 'ProjectIterations';
 export const PROJECT_ITERATIONS_WORK_ITEM_ROUTE = 'ProjectIterationsWorkItem';
 
 // Auth
-export const AUTH_CLIENT_ID = process.env.CLIENT_ID';
+export const AUTH_CLIENT_ID = process.env.CLIENT_ID;
 export const AUTH_RESPONSE_TYPE = 'Assertion';
 export const AUTH_SCOPE = 'vso.agentpools vso.analytics vso.auditlog vso.build vso.code vso.code_status vso.connected_server vso.dashboards vso.entitlements vso.extension vso.extension.data vso.gallery vso.graph vso.identity vso.loadtest vso.memberentitlementmanagement vso.notification vso.packaging vso.project vso.release vso.securefiles_read vso.security_manage vso.serviceendpoint vso.symbols vso.taskgroups_read vso.test vso.tokenadministration vso.tokens vso.variablegroups_read vso.wiki vso.work';
 export const AUTH_REDIRECT_URI = AuthSession.getRedirectUrl();
